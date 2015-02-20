@@ -1,7 +1,11 @@
-## The makeCacheMatix creates a matrix and cacheSolve creates the inversr of
-## functions do
+## The makeCacheMatix creates a matrix and cacheSolve returns or creates the 
+## inverse of matrix
 
-## Write a short comment describing this function
+
+## 'Set' function assigns value to the matrix
+## 'get' function returns the matirx
+## 'setinv' function assigns the inverse matrix to m
+## 'getinv' function returns the inverse matrix
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -21,7 +25,10 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## The inverse of the matrix is called from makeCacheMatrix function and if it
+## is null, the inverse of the matrix is calculated and stored in m and if it 
+## is not null the inverse matrix is returned 
+
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
